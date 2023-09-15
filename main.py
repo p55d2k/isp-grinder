@@ -55,7 +55,7 @@ while True:
       counts.append(0)
     else:
       with open(teacher.lower() + "/tries.txt", "a+") as f:
-        f.write("tries took to get " + teacher.upper() + ": " + str(counts)[1:-1])
+        f.write("tries took to get " + teacher.upper() + ": " + str(counts)[1:-1] + "\n")
         break
   else:
     counts[currentindex] += 1
