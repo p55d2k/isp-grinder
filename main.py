@@ -66,7 +66,7 @@ for teacher in teachers:
     print("Attempt " + str(counts[currentindex] + 1) + " | Teacher: " + cteacher)
 
     if cteacher == teacher.upper():
-      print("You got " + teacher.upper() + " in " + str(counts[currentindex]) + " tries!")
+      print("You got " + teacher.upper() + " in " + str(counts[currentindex]+1) + " tries!")
 
       if not os.path.exists("teachers/"):
         os.mkdir("teachers/")
@@ -90,6 +90,8 @@ for teacher in teachers:
     driver.refresh()
   
   counts = [0]
+  currentindex = 0
 
+print("\033c")
 print("go check ur folder")
 time.sleep(5)
