@@ -1,6 +1,10 @@
 import os
 import time
+
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+os.system("python3 -m pip install selenium")
+print("\033c")
 
 if os.path.exists("credentials.txt"):
   with open("credentials.txt", "r") as f:
