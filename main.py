@@ -31,6 +31,8 @@ if os.path.exists("feed.txt"):
     teachers = feed.split("\n")
     if "" in teachers:
       teachers.remove("")
+    for i in range(len(teachers)):
+      teachers[i] = teachers[i].upper()
     if len(teachers) == 0:
       get_raw_input()
 else:
