@@ -9,18 +9,27 @@
 
 </div>
 
-
 ## About 📖
 
 ISP grinder is a program made to grind isp (https://isphs.hci.edu.sg) to get a specific teacher on your dashboard.
 
+## Requirements 📋
+
+- Python 3.6 or higher
+- Python libraries: `selenium`
+- Google Chrome
+
+## Installation 🛠️
+
+1. Clone this repository: `git clone https://github.com/p55d2k/isp-grinder.git`
+2. Install the required libraries: `pip install -r requirements.txt`
+3. Run `main.py` or `get-all-teachers.py` to start the program
 
 ## Contributions 🤝
 
 Contributions, issues and feature requests are welcome!
 
 It would be great to have some help to improve this project. Feel free to fork this project and work on it. You can also open **an issue** or **pull request** for any feature requests or bug reports related to this project.
-
 
 ## License 📝
 
